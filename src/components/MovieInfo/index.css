@@ -1,0 +1,21 @@
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 18px;
+  color: gold;
+}
+
+.center {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plot {
+  width: 40vw;
+}

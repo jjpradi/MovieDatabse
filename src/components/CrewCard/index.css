@@ -1,0 +1,17 @@
+.crew-card {
+  height: 33vh;
+  border: solid 5px blue;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 8px;
+
+  margin: 12px;
+
+  max-width: 7vw;
+  min-width: 7vw;
+}
+
+.crew-img {
+  min-height: 15vh;
+  max-height: 15vh;
+}

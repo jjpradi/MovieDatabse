@@ -1,0 +1,13 @@
+.department-list {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  list-style-type: none;
+}
+
+.department-list ::-webkit-scrollbar {
+  display: none;
+}

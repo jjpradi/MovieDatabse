@@ -1,0 +1,42 @@
+.actor-page {
+  padding: 24px;
+  color: white;
+}
+
+.actor-header {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.actor-header img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.actor-info {
+  max-width: 600px;
+}
+
+.bio {
+  margin-top: 12px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.known-for-row {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+}
+
+.known-poster {
+  width: 140px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.known-poster:hover {
+  transform: scale(1.08);
+}

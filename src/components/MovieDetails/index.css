@@ -1,0 +1,44 @@
+.cast-list {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  list-style-type: none;
+}
+.first-part {
+  display: flex;
+  flex-direction: row;
+
+  height: 100vh;
+}
+.cast-list ::-webkit-scrollbar {
+  display: none;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  height: 100%;
+  background-color: black;
+
+  color: #ffffff;
+}
+
+.crew-bg {
+  height: 100%;
+  background-color: black;
+  color: #ffff;
+}

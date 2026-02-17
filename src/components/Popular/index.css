@@ -1,0 +1,32 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg {
+  background-color: black;
+  max-height: 100vh;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

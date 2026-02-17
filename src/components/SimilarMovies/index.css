@@ -1,0 +1,31 @@
+.similar-container {
+  padding: 24px;
+  color: white;
+}
+
+.similar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+
+  overflow-y: auto;
+
+  height: 70vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.similar-grid ::-webkit-scrollbar {
+  display: none;
+}
+
+.similar-poster {
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.similar-poster:hover {
+  transform: scale(1.08);
+}

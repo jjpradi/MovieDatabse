@@ -1,0 +1,15 @@
+.cast-img {
+  max-height: 17vh;
+}
+
+.cast-card {
+  height: 33vh;
+  border: solid 5px blue;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 8px;
+
+  margin: 12px;
+
+  width: 9vw;
+}

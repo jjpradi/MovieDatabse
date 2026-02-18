@@ -105,20 +105,20 @@ class App extends Component {
           searchValueChange: this.searchValueChange,
         }}
       >
-        <BrowserRouter className="con">
+        <BrowserRouter className='con'>
           <Navbar />
 
           <Switch>
-            <Route exact component={Popular} path="/" />
+            <Route exact component={Popular} path='/' />
 
-            <Route exact component={TopRated} path="/top-rated" />
+            <Route exact component={TopRated} path='/top-rated' />
 
-            <Route exact component={UpComing} path="/upcoming" />
-            <Route exact component={Favourite} path="/fav" />
-            <Route exact component={MovieDetails} path="/movie/:movieId" />
-            <Route exact component={ActorDetails} path="/actor/:id" />
+            <Route exact component={UpComing} path='/upcoming' />
+            <Route exact component={Favourite} path='/fav' />
+            <Route exact component={MovieDetails} path='/movie/:movieId' />
+            <Route exact component={ActorDetails} path='/actor/:id' />
 
-            <Route exact component={SearchedMovie} path="/searched" />
+            <Route exact component={SearchedMovie} path='/searched' />
           </Switch>
         </BrowserRouter>
       </ApiContext.Provider>
